@@ -1,0 +1,133 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%; 
+}
+body
+{
+    background-image: url('https://media.gettyimages.com/id/1388925457/video/stylish-workspace-with-desktop-computer.jpg?s=640x640&k=20&c=7U2I5ARDKbqGVtznPyzdoI8tatsMHEi2MV8otDRS63s=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: sans-serif;
+}
+.menu-bar
+{
+    
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 5px;
+    padding: 15px;
+    
+}
+.menu-bar ul li a {
+     
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover {
+
+    background: #4b7539;
+    border-radius: 10px;
+}
+.menu-bar .fa {
+
+    margin-right: 6px;
+} 
+.sub-menu-1 {
+
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+
+    display: block;
+    position: absolute;
+    background-color: rgb(8, 142, 109);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+
+    display: block;
+    margin: 10px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 15px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: rgb(224, 239, 21);
+}
+
+.fa-angle-right {
+
+    float: right;
+}
+.sub-menu-2 {
+    display: none;
+}
+.hover-me:hover  .sub-menu-2 {
+
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(206, 116, 197);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
