@@ -1,0 +1,176 @@
+/* Add a consistent background color to the entire page */
+body {
+    background-color: #588ca093; 
+    color: #333; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, #007bff, #6610f2); 
+    border-bottom: 2px solid #6610f2; 
+  }
+  
+  .navbar-custom .nav-link {
+    color: white; 
+    transition: color 0.3s ease; 
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #ffd700; 
+  }
+  
+.mass-body {
+    height: 100vh;
+    width: 210vh;
+    padding: 30px;
+    padding-top: 0;
+}
+.h1 {
+    color: black;
+}
+
+.h1:hover {
+    color: rgb(9, 176, 247);
+}
+
+.text-resume {
+    color: #0ca5f1; 
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+.anchor {
+    margin-left: auto;
+    font-family:  Franklin Gothic Medium;
+    font-size: 20px;
+    
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.about-p{
+    display: flex;
+    color: rgb(249, 35, 2);
+
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.info-l{ 
+    padding-left: 50px;
+    width: 350px;
+    word-spacing: normal;
+}
+.info-r{  
+    margin: 100px;
+    height: 13vw;
+    width: 50vw;   
+}
+.education {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 210vh;
+    
+
+}
+/* Education Section Custom Styles */
+#education h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.education-icon {
+    font-size: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card strong {
+    color: #000;
+}
+
+.skills{
+    height: 100vh;
+    width: 210vh;
+}
+
+#skills {
+    background-color: #e68181;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#skills h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#skills p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.ccontact{
+    height: 100vh;
+    width: 210vh;
+}
+#contact h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#contact .list-unstyled li {
+    font-size: 1rem;
+}
+
+#contact .form-control {
+    border-radius: 5px;
+}
+
+#contact button {
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+
+  
+
+
